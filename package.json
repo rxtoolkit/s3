@@ -1,16 +1,16 @@
 {
-  "name": "@buccaneerai/PACKAGE_NAME",
+  "name": "@buccaneerai/rxjs-s3",
   "version": "1.0.0",
-  "description": "FIXME",
+  "description": "🪣 RXJS operators for working with AWS S3",
   "main": "dist/index.js",
-  "repository": "https://github.com/buccaneerai/PACKAGE_NAME.git",
+  "repository": "https://github.com/buccaneerai/rxjs-s3.git",
   "author": "Buccaneer LLC <opensource@buccaneer.ai>",
   "license": "UNLICENSED",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "bugs": {
-    "url": "https://github.com/buccaneerai/PACKAGE_NAME/issues"
+    "url": "https://github.com/buccaneerai/rxjs-s3/issues"
   },
   "keywords": [],
   "directories": {
@@ -24,6 +24,7 @@
     "test": "mocha --require @babel/register --require @babel/polyfill \"./{,!(node_modules)/**/}*.test.js\" --exit --require source-map-support"
   },
   "dependencies": {
+    "aws-sdk": "^2.866.0",
     "lodash": "^4.17.20",
     "rxjs": "^6.6.3"
   },
