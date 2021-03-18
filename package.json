@@ -12,7 +12,15 @@
   "bugs": {
     "url": "https://github.com/buccaneerai/rxjs-s3/issues"
   },
-  "keywords": [],
+  "keywords": [
+    "rxjs",
+    "AWS",
+    "S3",
+    "observables",
+    "streaming",
+    "storage",
+    "files"
+  ],
   "directories": {
     "src": "src"
   },
