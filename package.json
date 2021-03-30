@@ -29,7 +29,8 @@
   ],
   "scripts": {
     "build": "BABEL_ENV=build babel src --out-dir dist --source-maps --extensions .js --config-file ./babel.config.js --delete-dir-on-start --no-comments",
-    "test": "mocha --require @babel/register --require @babel/polyfill \"./{,!(node_modules)/**/}*.test.js\" --exit --require source-map-support"
+    "test": "mocha --require @babel/register --require @babel/polyfill \"./{,!(node_modules)/**/}*.test.js\" --exit --require source-map-support",
+    "run-pipeline": "yarn build && node ./scripts/index.js"
   },
   "dependencies": {
     "aws-sdk": "^2.866.0",
@@ -43,8 +44,9 @@
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.12.13",
     "@babel/register": "^7.12.13",
+    "@buccaneerai/rxjs-fs": "^2.0.0",
     "chai": "^4.2.0",
-    "commander": "^7.0.0",
+    "commander": "^7.2.0",
     "mocha": "^8.2.1",
     "rxjs-marbles": "^6.0.1",
     "sinon": "^9.2.4"
