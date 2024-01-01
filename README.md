@@ -2,6 +2,10 @@
 > 🪣 RXJS operators for working with AWS S3
 
 ```bash
+npm i @rxtk/s3
+```
+
+```bash
 yarn add @rxtk/s3
 ```
 
