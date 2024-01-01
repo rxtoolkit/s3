@@ -1,6 +1,6 @@
 {
   "name": "@rxtk/s3",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "🪣 RXJS operators for working with AWS S3",
   "main": "dist/index.js",
   "repository": "https://github.com/rxtoolkit/s3.git",
