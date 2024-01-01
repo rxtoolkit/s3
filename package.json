@@ -1,16 +1,13 @@
 {
-  "name": "@buccaneerai/rxjs-s3",
+  "name": "@rxtk/s3",
   "version": "1.0.0",
   "description": "🪣 RXJS operators for working with AWS S3",
   "main": "dist/index.js",
-  "repository": "https://github.com/buccaneerai/rxjs-s3.git",
+  "repository": "https://github.com/rxtoolkit/s3.git",
   "author": "Buccaneer LLC <opensource@buccaneer.ai>",
-  "license": "UNLICENSED",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/buccaneerai/rxjs-s3/issues"
+    "url": "https://github.com/rxtoolkit/s3/issues"
   },
   "keywords": [
     "rxjs",
@@ -43,10 +40,13 @@
     "@babel/polyfill": "^7.12.1",
     "@babel/preset-env": "^7.12.13",
     "@babel/register": "^7.12.13",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/git": "^10.0.1",
     "chai": "^4.2.0",
     "commander": "^7.0.0",
     "mocha": "^8.2.1",
     "rxjs-marbles": "^6.0.1",
+    "semantic-release-export-data": "^1.0.1",
     "sinon": "^9.2.4"
   },
   "engines": {

@@ -1,11 +1,8 @@
-# @buccaneerai/rxjs-s3
+# @rxtk/s3
 > 🪣 RXJS operators for working with AWS S3
 
-## Installation
-This is a private package. It requires setting up access in your npm config.
-
 ```bash
-yarn add @buccaneerai/rxjs-s3
+yarn add @rxtk/s3
 ```
 
 ## API
@@ -15,7 +12,7 @@ Downloads a file to AWS S3 (as a stream).
 ```js
 import AWS from 'aws-sdk';
 import {concat} from 'rxjs';
-import {fromS3file} from '@buccaneerai/rxjs-s3';
+import {fromS3file} from '@rxtk/s3';
 
 // Download AWS S3 file as a stream of file chunks (Buffers)
 const downloadParams = {
@@ -33,7 +30,7 @@ bufferchunk$.subscribe(console.log);
 Uploads a file to AWS S3 (as a stream).
 ```js
 import {concat} from 'rxjs';
-import {toS3File} from '@buccaneerai/rxjs-s3';
+import {toS3File} from '@rxtk/s3';
 
 // create a stream of file chunks
 const chunk0 = Buffer.from('{"hello":');
